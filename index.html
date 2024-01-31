@@ -1,11 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="img/codificacion.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Ubuntu+Mono:ital@1&display=swap" rel="stylesheet">
+    <title>Mi Web</title>
 </head>
+
 <body>
-    <h1>Proyecto M1</h1>
+    <header>
+        <div>
+            <a id="mau"> Mau...</a>
+        </div>
+    </header>
+
+    <section>
+        <nav>
+            <ul class="navbar-list">
+                <li><a href="#about">¿Algo sobre mí?</a></li>
+                <li><a href="#titulo1">Tecnologías</a></li>
+                <li><a href="#actividades">Actividades</a></li>
+                <li><a href="#redes">Mis redes</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- *----Tarjeta---- -->
+
+    <section id="tarjeta" class="tarjeta">
+        <div class="contenido-baner">
+            <div class="contenedor-img">
+                <img src="img/IMG_20230823_152713_550.webp" alt="Mauricio Villegas">
+            </div>
+            <h1>Mauricio Villegas</h1>
+            <h2>Estudiante Henry</h2>
+        </div>
+    </section>
+    
+    <a href="#about">
+        <h2 id="titulo-about">¿Algo sobre mí?</h2>
+    </a>
+
+    <section class="contenedor-about">
+        <div id="about">
+            <p>
+                Mi nombre completo es Mauricio Villegas, soy estudiante de programación full stack en la Academia <strong>Soy Henry</strong>, actualmente vivo en Mendoza, Argentina. Mi entusiasmo por aprender crece cada día. Este es mi portafolio estudiantil, donde comparto mi progreso y proyectos. ¡Bienvenido/a a mi espacio de innovación y aprendizaje constante!
+            </p>
+        </div>
+       
+    </section>
+    
+    <a href="#titulo1"> 
+        <h2 id="titulo1">
+
+            Mis tecnologías Favoritas
+
+        </h2>
+    </a>
+    
+    <section class="contenedor-tecnologia">
+        <img src="img/html5-2.png" alt="HTML">
+        <img src="img/css.png" alt="CSS">
+        <img src="img/javascript.webp" alt="JavaScript">
+    </section>
+  
+
+    <a href="#actividades">
+        <h2 id="titulo2">Mis actividades favoritas</h2>
+    </a>
+
+   <section id="actividades" class="contenedor-actividades">
+
+
+       <!--!---- Formulario -->
+
+
+       <form class="formulario-actividades">
+           <!-- <label for="titulo">Título:</label> -->
+           <input type="text" id="titulo" name="titulo" placeholder="Ingrese el título">
+
+           <!-- <label for="descripcion">Descripción:</label> -->
+           <input type="text" id="descripcion" name="descripcion" placeholder="Ingrese la descripción">
+
+           <!-- <label for="urlImagen">URL de la Imagen:</label> -->
+           <input type="text" id="urlImagen" name="urlImagen" placeholder="Ingrese la URL de la imagen">
+
+           <button type="submit">push</button>
+       </form>
+
+       <!--? tarjetas con actividades -->
+
+
+       <div class="contenedor-tarjetas"></div>
+   </section>
+
+   <!--TODO ---- Mis Redes -->
+   <a href="#redes">
+   <section id="redes" class="contenedor-redes">
+       <a href="https://www.instagram.com/" class="icono-red"><img src="img/instagram.png" alt="Instagram"></a>
+       <a href="https://www.facebook.com/?locale=es_LA" class="icono-red"><img src="img/facebook.png" alt="Facebook"></a>
+       <a href="https://twitter.com/?lang=es" class="icono-red"><img src="img/gorjeo (1).png" alt="Twitter"></a>
+       <a href="https://ar.linkedin.com/" class="icono-red"><img src="img/linkedin.png" alt="Linkedin"></a>
+       <a href="https://github.com/" class="icono-red"><img src="img/github (1).png" alt="Github"></a>
+   </section>
+   </a>
+   <!--* Footer -->
+
+
+   <footer>
+       <p>Hecho por Mau-Vllgs  <font color="#99b898">&copy;</font></p>
+   </footer>
+
 </body>
+
 </html>
+
+
+
+
+    
+  
+
+

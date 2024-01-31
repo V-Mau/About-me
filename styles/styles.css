@@ -1,0 +1,275 @@
+body{
+    margin: 0;
+    background-color: #1e2326;
+    
+}
+/* Cabecera  */
+#mau {
+    
+    font-family: 'Righteous', sans-serif;
+    color:#99b898;
+    font-size: 2em;
+    margin:1em;
+    /* padding-bottom: 10rem; */
+    text-shadow: 2px 2px 4px rgb(109, 109, 52,08);
+    
+}
+/*?------ Barra de navegacion ------- */
+nav {
+    
+    background-color: #99b898;
+    /* margin-bottom: 13em; */
+    margin: 1.3em;
+}
+
+.navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-list li {
+    padding: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+
+.navbar-list li:hover {
+    
+    transform: translateY(-5px);
+    text-shadow: 2px 2px 4px rgba(255,255,255,08);
+  
+}
+.navbar-list li a {
+    text-decoration: none;
+    color: white;
+    border-bottom: none; 
+    outline: none; 
+}
+
+
+
+/**  ---- Tarjeta(baner) ----     */
+
+ .tarjeta {
+   
+     background-size: #1e2326;
+     display: flex;
+     align-items: center;
+} 
+.tarjeta .contenido-baner {
+    padding: 20px;
+    background-color:#2a363b;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+    
+    
+}
+.tarjeta .contenido-baner img{
+    margin-top: 40px;
+    border: 10px solid #99b898;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+    
+}
+.tarjeta .contenido-baner h1 {
+    margin-top: 10px;
+    font-size: 2em;
+    font-family:  'Righteous', sans-serif;
+    color:white;
+}
+.tarjeta .contenido-baner h2 {
+    font-size: 1em;
+    font-weight: normal;
+    color:white;
+    margin-top: 1em;
+}
+
+/** ----Sobre MI----  */
+
+#titulo-about {
+    
+    text-align: center;
+    margin: 30px;
+    
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    font-family: 'Righteous', sans-serif;
+    
+    
+    
+}
+#titul-about a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.contenedor-about {
+    font-size: 1.1em;
+    color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2A363B;
+    margin: 1em;
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px;
+}
+
+/*?---- Titulo seccion tecnologia---- */
+
+#titulo1 {
+    text-align: center;
+    margin: 30px;
+    
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    font-family: 'Righteous', sans-serif;
+    
+}
+/** ---------Logos de tecnologia */
+.contenedor-tecnologia {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em;
+}
+
+
+.contenedor-tecnologia img {
+    max-width: 100em;
+    height: 10em;
+    margin-right: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.contenedor-tecnologia img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(245, 247, 243, 0.808);
+}
+
+#titulo2{
+    text-align: center;
+    margin: 30px;
+    
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    font-family: 'Righteous', sans-serif;
+}
+
+
+
+
+/** ----Sección de Mis Actividades Favoritas---- */
+
+.contenedor-actividades {
+    background-color: #2A363B;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    border-radius: 10px;
+    margin: 1em;
+}
+
+.formulario-actividades {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.formulario-actividades label {
+    font-size: 1.2em;
+}
+
+.formulario-actividades input {
+    padding: 0.5em;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+}
+
+.formulario-actividades button {
+    padding: 0.5em;
+    font-size: 1em;
+    background-color: #e84a5f;
+    color: #1e2326;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formulario-actividades button:hover {
+    background-color: #ff847c;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+/*TODO ----- Sección de Mis Redes----- */
+
+
+.contenedor-redes {
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+    margin: 1em;
+
+}
+
+.icono-red {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+    overflow: hidden; 
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.icono-red img {
+    width: 100%;
+    height: 100%;
+}
+
+.icono-red:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+
+/*?---- Footer -----*/
+footer {
+    background-color: #2A363B;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    border-radius: 10px;
+    margin: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
