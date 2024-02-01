@@ -16,7 +16,7 @@
 <body>
     <header>
         <div>
-            <a id="mau"> Mau...</a>
+            <a href="#" id="mau"> Mau...</a>
         </div>
     </header>
 
@@ -82,22 +82,23 @@
 
 
        <form class="formulario-actividades">
-           <!-- <label for="titulo">Título:</label> -->
-           <input type="text" id="titulo" name="titulo" placeholder="Ingrese el título">
+           <label for="title"></label>
+           <input type="text" id="title" name="titulo" placeholder="Ingrese el título">
 
-           <!-- <label for="descripcion">Descripción:</label> -->
-           <input type="text" id="descripcion" name="descripcion" placeholder="Ingrese la descripción">
+           <label for="description">:</label>
+           <input type="text" id="description" name="descripcion" placeholder="Ingrese la descripción">
 
-           <!-- <label for="urlImagen">URL de la Imagen:</label> -->
-           <input type="text" id="urlImagen" name="urlImagen" placeholder="Ingrese la URL de la imagen">
+           <label for="imgUrl"></label>
+           <input type="text" id="imgUrl" name="urlImagen" placeholder="Ingrese la URL de la imagen">
 
-           <button type="submit">push</button>
+           <button id="enviar" type="submit">Enviar</button>
        </form>
 
+       
        <!--? tarjetas con actividades -->
-
-
-       <div class="contenedor-tarjetas"></div>
+       <div id="tarjetas" class="contenedor-tarjetas"></div>
+       
+       
    </section>
 
    <!--TODO ---- Mis Redes -->
@@ -116,7 +117,7 @@
    <footer>
        <p>Hecho por Mau-Vllgs  <font color="#99b898">&copy;</font></p>
    </footer>
-
+   <script src="./scripts/index.js"></script>
 </body>
 
 </html>

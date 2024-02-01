@@ -55,7 +55,7 @@ nav {
 
  .tarjeta {
    
-     background-size: #1e2326;
+     background-size: contain;
      display: flex;
      align-items: center;
 } 
@@ -215,10 +215,24 @@ nav {
 }
 
 .contenedor-tarjetas {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 1em;
+   width: 250px;
+   margin: 20px auto;
+   text-align: center;
+   padding: 10px;
+   box-shadow: 0 0 10px rgba(0,0,0,05);
+   border-radius: 10px;
+   background-color: aqua;
+   transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contenedor-tarjetas:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.contenedor-tarjetas img {
+    max-width: 100%;
+    border-radius: 10px;
 }
 
 /*TODO ----- Sección de Mis Redes----- */
@@ -249,6 +263,11 @@ nav {
     transform: translateY(-3px);
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
 }
+
+.contenedor-redes .icono-red {
+    margin-right: 20px; 
+}
+
 
 
 /*?---- Footer -----*/
