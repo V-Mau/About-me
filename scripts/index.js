@@ -90,15 +90,15 @@ class Activity {
   
   form.addEventListener('submit', handleEnviarButtonClick);
   
-  tarjetasContainer.addEventListener('click', (event) => {
-    const targetCard = event.target.closest('.contenedor-tarjetas .tarjetas');
-    if (targetCard) {
-      const activityId = targetCard.dataset.activityId;
+//   tarjetasContainer.addEventListener('click', (event) => {
+//     const targetCard = event.target.closest('.contenedor-tarjetas .tarjetas');
+//     if (targetCard) {
+//       const activityId = targetCard.dataset.activityId;
   
-      repository.removeActivity(activityId);
-      updateTarjetas();
-    }
-  });
-  
-  document.addEventListener('DOMContentLoaded', updateTarjetas);
+//       repository.removeActivity(activityId);
+//       updateTarjetas();
+//     }
+//   });
+
+//   document.addEventListener('DOMContentLoaded', updateTarjetas);
   
