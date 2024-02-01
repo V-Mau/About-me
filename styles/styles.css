@@ -221,7 +221,7 @@ nav {
    padding: 10px;
    box-shadow: 0 0 10px rgba(0,0,0,05);
    border-radius: 10px;
-   background-color: aqua;
+   background-color: #ff847c;
    transition: transform 0.3s, box-shadow 0.3s;
 }
 
